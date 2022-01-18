@@ -1,0 +1,28 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+#slider {
+    height: 500px;
+    width: 700px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
